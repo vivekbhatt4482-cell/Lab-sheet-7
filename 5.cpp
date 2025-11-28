@@ -1,0 +1,15 @@
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main() {
+    char s1[100], s2[100];
+
+    cin.getline(s1, 100);
+    cin.getline(s2, 100);
+
+    strcat(s1, s2);
+
+    cout << "Concatenated: " << s1;
+    return 0;
+}
